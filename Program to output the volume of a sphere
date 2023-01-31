@@ -1,0 +1,4 @@
+radius_of_sphere=float(input("Enter the radius"))
+p_of_sphere=3.14
+volume_of_sphere=4/3*(p_of_sphere*(radius_of_sphere^3))
+print("The volume is=",volume_of_sphere)
