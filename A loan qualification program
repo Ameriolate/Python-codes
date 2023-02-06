@@ -1,0 +1,7 @@
+#A program to check if one qualifies for a loan according to their age and annual income
+age=int(input("Enter you're age"))
+anual_income=int(input("Enter your annual income"))
+if (age>=21 and income>=21000):
+ print("congratulations you qualify for a loan")
+else:
+ print("Unfortunately, we are not able to offer you a long right now")
