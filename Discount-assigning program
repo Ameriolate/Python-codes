@@ -5,4 +5,4 @@ if (amount>1000):
  result=amount*discount
  print("Your total amount is:",result)
 else:
- print("Your purchase is less than 1000")
+ print("Thank you customer for purchasing from us")
