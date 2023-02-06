@@ -1,0 +1,8 @@
+#A program to check if you are eligible to vote
+country_of_residence=input("Enter your country of residence").lower()
+countries=["kenya","uganda","tanzania"]
+age=int(input("Enter your age"))
+if (age>=18 and country_of_residence in countries):
+ print("You are eligible to vote")
+else:
+ print("You are not eligible to vote")
