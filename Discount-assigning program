@@ -1,0 +1,8 @@
+# A program to assign a discount in reference to amount of purchase
+amount=int(input("Enter your amount of purchase"))
+discount=5/100
+if (amount>1000):
+ result=amount*discount
+ print("Your total amount is:",result)
+else:
+ print("Your purchase is less than 1000")
