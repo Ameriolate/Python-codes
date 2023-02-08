@@ -1,0 +1,13 @@
+#A program to calculate the net bonus amount according to the salary and years of service of an employee
+salary=int(input("Enter your salary"))
+years_of_service=int(input("Enter your years of service"))
+if (years_of_service>10):
+net_bonus_amount=salary+(10/100*salary)
+ print("Your net bonus amount is:",net_bonus_amount)
+elif (years_of_service>=6 and years_of_service<=10):
+net_bonus_amount=salary+(8/100*salary)
+ print("Your net bonus amount is:",net_bonus_amount
+else:
+net_bonus_amount=salary+(5/100*salary)
+ print("Your net bonus amount is:",net_bonus_amount)
+ 
