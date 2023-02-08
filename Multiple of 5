@@ -1,0 +1,7 @@
+# A program to display hello if the number is a multiple of 5 and to display bye if it's not
+num=int(input("Enter a number:"))
+if (num%5==0):
+ print("Hello")
+else:
+ print("Bye")
+
