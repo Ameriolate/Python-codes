@@ -1,0 +1,15 @@
+#A program to grade a students
+math=int(input("Enter the score in maths"))
+Eng=int(input("Enter the score in English"))
+kiswa=int(input("Enter the score in kiswahili"))
+avg=(math+ eng+ kiswa)/3
+if (avg>=70 and avg<=100):
+print("The final grade is A")
+elif (avg>=60 and avg<=69):
+print(" The final grade is B")
+elif (avg>=50 and avg<=59):
+print("The final grade is C")
+elif (avg>=40 and avg<=49):
+print("The final grade is D")
+else:
+print("Fail")
