@@ -1,0 +1,9 @@
+#A program to authenticate a user using the user name and password
+user="ADMIN"
+password="NIMDA"
+enter_username=input("Enter the username:")
+enter_passowrd=input("Enter the password:")
+if enter_username in user:
+ print("Log in successful")
+else:
+ print("invalid credentials")
